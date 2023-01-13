@@ -1,0 +1,39 @@
+:host {
+  display: block;
+  color: #ffffff;
+}
+
+
+.desktop_dark {
+  display: flex;
+  justify-content: center;
+  height: 306px;
+  width: 90%;
+  background-color: #185CFF;
+}
+.desktop_light {
+  display: flex;
+  height: 306px;
+  width: 90%;
+  background-color: #002B4E;
+}
+.mobile_light {
+    display: flex;
+      flex-direction: column;
+  height: 348px;
+  width: 360px;
+  background-color: #185CFF;
+  
+}
+.mobile_dark {
+    display: flex;
+      align-items: center;
+  height: 348px;
+  width: 360px;
+  background-color: #002B4E;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

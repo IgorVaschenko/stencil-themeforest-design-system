@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Stencil Component Starter</title>
+    <link rel="stylesheet" href="/build/themeforest-design-system.css" />
+    <script type="module" src="/build/themeforest-design-system.esm.js"></script>
+    <script nomodule src="/build/themeforest-design-system.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <div>
+          <h1>Typhography</h1>
+
+          <h2>Headline</h2>
+          <tf-headline>Default - equal with attr variant="h1"</tf-headline>
+          <tf-headline variant="h1">ExtraBold / Headline 1</tf-headline>
+          <tf-headline color="#002b4e" variant="h2">ExtraBold / Headline 2</tf-headline>
+          <tf-headline variant="h3">ExtraBold / Headline 3</tf-headline>
+          <tf-headline variant="h4">ExtraBold / Headline 4</tf-headline>
+          <tf-headline variant="h5">ExtraBold / Headline 5</tf-headline>
+          <tf-headline variant="h6">ExtraBold / Headline 6</tf-headline>
+          <tf-headline variant="h7">ExtraBold / Headline 7</tf-headline>
+          <tf-headline variant="h7-medium">ExtraBold / Headline 8</tf-headline>
+
+          <h2>Paragraph</h2>
+          <tf-paragraph>Default - equal with attr variant="p1"</tf-paragraph>
+          <tf-paragraph variant="p1">Regular / Paragraph 1</tf-paragraph>
+          <tf-paragraph variant="p2">Regular / Paragraph 2</tf-paragraph>
+          <tf-paragraph variant="p2-b">Bold / Paragraph 2</tf-paragraph>
+          <tf-paragraph variant="p3">Regular / Paragraph 3</tf-paragraph>
+          <tf-paragraph variant="p3-sb">SemiBold / Paragraph 3</tf-paragraph>
+        </div>
+
+        <div>
+          <h1>Shadows</h1>
+          <tf-shadow-card variant="btn"><button>Shadow button</button></tf-shadow-card>
+          <tf-shadow-card variant="sh1"> <div class="shadow-view">Shadow card 1</div></tf-shadow-card>
+          <tf-shadow-card variant="sh2"> <div class="shadow-view">Shadow card 2</div></tf-shadow-card>
+          <tf-shadow-card variant="sh3"> <div class="shadow-view">Shadow card 3</div></tf-shadow-card>
+        </div>
+
+        <div>
+          <h2>Icons</h2>
+          <h3>System icons</h3>
+          <div class="row">
+            <tf-icons pointer icon-name="icon_chevron_down_20"></tf-icons>
+            <tf-icons icon-name="icon_chevron_up"></tf-icons>
+            <tf-icons icon-name="icon_chevron_right"></tf-icons>
+            <tf-icons icon-name="icon_play_circle"></tf-icons>
+            <tf-icons icon-name="icon_arrow_right"></tf-icons>
+            <tf-icons icon-name="icon_arrow_left"></tf-icons>
+            <tf-icons icon-name="icon_divider"></tf-icons>
+            <tf-icons icon-name="icon_call"></tf-icons>
+            <tf-icons icon-name="icon_mail"></tf-icons>
+            <tf-icons icon-name="icon_location"></tf-icons>
+            <tf-icons icon-name="icon_calendar"></tf-icons>
+            <tf-icons icon-name="icon_person"></tf-icons>
+            <tf-icons icon-name="icon_board"></tf-icons>
+            <tf-icons icon-name="icon_comment"></tf-icons>
+            <tf-icons icon-name="icon_tag"></tf-icons>
+            <tf-icons icon-name="icon_share"></tf-icons>
+            <tf-icons icon-name="icon_data_line"></tf-icons>
+            <tf-icons icon-name="icon_circle"></tf-icons>
+            <tf-icons icon-name="icon_checkmark"></tf-icons>
+          </div>
+          <div class="row">
+            <tf-icons icon-name="icon_chevron_up-1"></tf-icons>
+            <tf-icons icon-name="icon_down_up"></tf-icons>
+            <tf-icons icon-name="icon_chevron_left_24"></tf-icons>
+            <tf-icons icon-name="icon_chevron_right_24"></tf-icons>
+            <tf-icons icon-name="icon_arrow_up"></tf-icons>
+            <tf-icons icon-name="icon_arrow_down"></tf-icons>
+            <tf-icons icon-name="icon_navigation"></tf-icons>
+            <tf-icons icon-name="icon_dismiss"></tf-icons>
+            <tf-icons icon-name="icon_arrow_left_24"></tf-icons>
+            <tf-icons icon-name="icon_arrow_right_24"></tf-icons>
+            <tf-icons icon-name="icon_search"></tf-icons>
+            <tf-icons icon-name="icon_plus"></tf-icons>
+            <tf-icons icon-name="icon_minus"></tf-icons>
+          </div>
+          <div class="row">
+            <tf-icons icon-name="icon_chevron_left_28"></tf-icons>
+            <tf-icons icon-name="icon_chevron_right_28"></tf-icons>
+          </div>
+          <div class="row">
+            <tf-icons icon-name="icon_brain_circuit"></tf-icons>
+            <tf-icons icon-name="icon_arrow_trending_lines"></tf-icons>
+            <tf-icons icon-name="icon_key"></tf-icons>
+            <tf-icons icon-name="icon_data_area"></tf-icons>
+            <tf-icons icon-name="icon_data_pie"></tf-icons>
+            <tf-icons icon-name="icon_bot"></tf-icons>
+            <tf-icons icon-name="icon_book_database"></tf-icons>
+            <tf-icons icon-name="icon_calendar_data"></tf-icons>
+            <tf-icons icon-name="icon_clipboard_data"></tf-icons>
+            <tf-icons icon-name="icon_database"></tf-icons>
+            <tf-icons icon-name="icon_data_whisker"></tf-icons>
+            <tf-icons icon-name="icon_data_pie-1"></tf-icons>
+          </div>
+          <h3>Social icons</h3>
+          <div class="row">
+            <tf-icons icon-name="icon_linkedin"></tf-icons>
+            <tf-icons icon-name="icon_facebook"></tf-icons>
+            <tf-icons icon-name="icon_twitter"></tf-icons>
+            <tf-icons icon-name="icon_google"></tf-icons>
+            <tf-icons icon-name="icon_youtube"></tf-icons>
+            <tf-icons icon-name="icon_dribbble"></tf-icons>
+            <tf-icons icon-name="icon_behance"></tf-icons>
+          </div>
+          <h3>Custom isometric 3d icons</h3>
+          <div class="row">
+            <tf-icons icon-name="icon_brain_isometric"></tf-icons>
+            <tf-icons icon-name="icon_trending_lines_isometric"></tf-icons>
+            <tf-icons icon-name="icon_key_isometric"></tf-icons>
+            <tf-icons icon-name="icon_data_area_isometric"></tf-icons>
+            <tf-icons icon-name="icon_data_pie _isometric"></tf-icons>
+            <tf-icons icon-name="icon_bot _isometric"></tf-icons>
+          </div>
+          <div class="row">
+            <tf-icons icon-name="icon_brain_isometric_3d"></tf-icons>
+            <tf-icons icon-name="icon_trending_lines_isometric_3d"></tf-icons>
+            <tf-icons icon-name="icon_key_isometric_3d"></tf-icons>
+            <tf-icons icon-name="icon_data_area_isometric_3d"></tf-icons>
+            <tf-icons icon-name="icon_data_pie _isometric_3d"></tf-icons>
+            <tf-icons icon-name="icon_bot _isometric_3d"></tf-icons>
+          </div>
+
+          <div class="row">
+            <div>
+              <h2>Buttons</h2>
+              <tf-button width="400px" color="#f1f6fa" variant="contained" shadow text="Learn more" size="lg"></tf-button>
+              <br />
+              <tf-button color="#f1f6fa" variant="contained" shadow text="Watch the demo" icon="icon_play_circle_white_24" size="lg-b"></tf-button>
+              <br />
+              <tf-button color="#f1f6fa" variant="contained" shadow text="Send" size="md"></tf-button>
+              <br />
+              <tf-button color="#f1f6fa" variant="contained" shadow icon="icon_search_white" size="sm"></tf-button>
+            </div>
+            <div>
+              <h2>Buttons (disabled)</h2>
+              <tf-button variant="contained" text="Learn more" size="lg" disabled></tf-button>
+              <br />
+              <tf-button variant="contained" text="Watch the demo" icon="icon_play_circle_white_24" size="lg-b" disabled="true"></tf-button>
+              <br />
+              <tf-button variant="contained" text="Send" size="md" disabled="true"></tf-button>
+              <br />
+              <tf-button variant="contained" icon="icon_search_white" size="sm" disabled></tf-button>
+            </div>
+          </div>
+          <div>
+            <h2>Buttons (outlined)</h2>
+            <tf-button variant="outlined" shadow text="Watch the demo" icon="icon_play_circle_blue_32"></tf-button>
+            <br />
+            <tf-button variant="outlined" text="Watch the demo" icon="icon_play_circle_grey_32" disabled></tf-button>
+          </div>
+          <div>
+            <h2>Buttons (text)</h2>
+            <tf-button variant="text" text="Watch the demo" icon="icon_play_circle_black_24"></tf-button>
+            <br />
+            <tf-button variant="text" text="Watch the demo" icon="icon_play_circle_grey_24" disabled></tf-button>
+          </div>
+          <div>
+            <h2>Buttons (text/bold)</h2>
+            <tf-button bold variant="text" text="Watch the demo" icon="icon_play_circle_black_32"></tf-button>
+            <br />
+            <tf-button bold variant="text" text="Watch the demo" icon="icon_play_circle_grey_32" disabled></tf-button>
+          </div>
+          <h2>Buttons circle (big)</h2>
+          <div class="row">
+            <tf-button variant="circle" text="Learn more" size="lg_circle" shadow></tf-button>
+            <br />
+            <tf-button variant="circle" text="Learn more" size="lg_circle" disabled></tf-button>
+          </div>
+          <h2>Buttons circle (small)</h2>
+          <div class="row">
+            <tf-button variant="circle" text="Learn more" size="sm_circle"></tf-button>
+            <br />
+            <tf-button variant="circle" text="Learn more" size="sm_circle" disabled></tf-button>
+          </div>
+
+          <div>
+            <h3>Controls direction (desktop)</h3>
+            <div class="controls">
+              <tf-control variant="desktop" direction="left"></tf-control>
+              <tf-control variant="desktop" direction="left" disabled></tf-control>
+              <tf-control variant="desktop" direction="right"></tf-control>
+              <tf-control variant="desktop" direction="right" disabled></tf-control>
+            </div>
+            <h3>Controls direction (mobile)</h3>
+            <div class="controls">
+              <tf-control variant="mobile" direction="left"></tf-control>
+              <tf-control variant="mobile" direction="left" disabled></tf-control>
+              <tf-control variant="mobile" direction="right"></tf-control>
+              <tf-control variant="mobile" direction="right" disabled></tf-control>
+            </div>
+            <h3>Tab</h3>
+            <div>
+              <tf-tab variant="small"></tf-tab>
+              <tf-tab variant="medium"></tf-tab>
+              <tf-tab variant="large"></tf-tab>
+            </div>
+            <h3>Month/year switch (desktop)</h3>
+            <div class="controls">
+              <tf-switch variant="desktop"></tf-switch>
+            </div>
+            <h3>Month/year switch (mobile)</h3>
+            <div class="controls">
+              <tf-switch variant="mobile"></tf-switch>
+            </div>
+          </div>
+
+          <div>
+            <h2>Simple</h2>
+            <div class="row">
+              <tf-link variant="simple" text="Read more" href="">asdf</tf-link>
+              <tf-link variant="simple" text="Read more" href="" disabled></tf-link>
+            </div>
+            <h2>Arrow</h2>
+            <div class="row">
+              <tf-link variant="arrow" text="Read more" href=""></tf-link>
+              <tf-link variant="arrow" text="Read more" href="" disabled></tf-link>
+            </div>
+            <h2>Header light</h2>
+            <div class="row">
+              <tf-link variant="header_light" text="Home" href=""></tf-link>
+            </div>
+            <h2>Header dark</h2>
+            <div class="dark_column">
+              <tf-link variant="header_dark" text="Home" href=""></tf-link>
+            </div>
+            <h2>Footer</h2>
+            <div class="dark_column">
+              <tf-link variant="footer" text="Home" href=""></tf-link>
+            </div>
+            <h2>Menu(mobile)</h2>
+            <div class="dark_column">
+              <tf-link variant="menu" text="Home" href=""></tf-link>
+            </div>
+          </div>
+
+          <div>
+            <h2>Tags</h2>
+            <div class="row">
+              <tf-tag disabled>Proxy</tf-tag>
+              <tf-tag>Proxy</tf-tag>
+            </div>
+          </div>
+          -->
+
+          <div>
+            <h2>Cards</h2>
+            <br />
+            <h4>Advantage / services cards (desktop)</h4>
+            <br />
+            <div>
+              <div>
+                <h5>Variant_1 (right text)</h5>
+                <br />
+                <tf-card
+                  width="250px"
+                  view="services"
+                  variant="right-text"
+                  icon="icon_brain_circuit"
+                  title="Machine learning"
+                  subtitle="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesenaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum delenitium voluptatum deleniti atque corrupti quos dolores."
+                ></tf-card>
+                <br />
+                <h5>Variant_2 (center text)</h5>
+                <br />
+                <tf-card
+                  view="services"
+                  variant="center-text"
+                  icon="icon_brain_circuit"
+                  title="Machine learning"
+                  subtitle="At vero eos et accusamus et iusto odio dignissimaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum delenivos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+                >
+                  <tf-link variant="arrow" text="Read more" href=""></tf-link>
+                </tf-card>
+                <br />
+                <h5>Variant_3 (stretched right / glass icons)</h5>
+                <br />
+                <tf-card
+                  view="services"
+                  variant="glass-icons"
+                  icon="icon_brain_isometric_3d"
+                  title="Machine learning"
+                  subtitle="At vero eos et accusamus et iusto odio dignissimos duaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum delenivaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum delenicimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+                >
+                  <tf-link variant="arrow" text="Read more" href=""></tf-link>
+                </tf-card>
+                <br />
+                <h5>Variant_4 (small card)</h5>
+                <br />
+                <tf-card
+                  width="250px"
+                  view="services"
+                  variant="small-card"
+                  icon="icon_brain_circuit"
+                  title="Machine learning"
+                  subtitle="At vero eos et accusamus et iusto odaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum delenivio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+                ></tf-card>
+              </div>
+              <br />
+              <h4>Advantage / services cards (mobile)</h4>
+              <div>
+                <h5>Variant_1 (right text)</h5>
+                <br />
+                <tf-card
+                  view="services_mobile"
+                  variant="right_text_mob"
+                  icon="icon_brain_circuit"
+                  title="Machine learning"
+                  subtitle="At vero eos et accusamus et iustoaccusamus et iusto od et accusamus et iusto odio dignisaccusamus et iusto odio dignissimos ducimus qu et accusamus et iusto odio dignisaccusamus et iusto odio dignissimos ducimus qu et accusamus et iusto odio dignisaccusamus et iusto odio dignissimos ducimus qu et accusamus et iusto odio dignisaccusamus et iusto odio dignissimos ducimus qu et accusamus et iusto odio dignisaccusamus et iusto odio dignissimos ducimus qu et accusamus et iusto odio dignisaccusamus et iusto odio dignissimos ducimus qu et accusamus et iusto odio dignisaccusamus et iusto odio dignissimos ducimus qu et accusamus et iusto odio dignisaccusamus et iusto odio dignissimos ducimus qu et accusamus et iusto odio dignisaccusamus et iusto odio dignissimos ducimus quio dignissimos ducimus qui blanditiis praesentium voluptatum deleniaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleni odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+                ></tf-card>
+              </div>
+              <br />
+              <h5>Variant_2 (with glass icons)</h5>
+              <br />
+              <tf-card
+                view="services_mobile"
+                variant="glass_icons_mob"
+                icon="icon_brain_isometric_3d"
+                title="Machine learning"
+                subtitle="At vero eos et accusamus et iusto odio dignisaccusa et accusamus et iusto odio dignisaccusamus et iusto odio dignissimos ducimus qu et accusamus et iusto odio dignisaccusamus et iusto odio dignissimos ducimus qu et accusamus et iusto odio dignisaccusamus et iusto odio dignissimos ducimus qu et accusamus et iusto odio dignisaccusamus et iusto odio dignissimos ducimus qu et accusamus et iusto odio dignisaccusamus et iusto odio dignissimos ducimus qu et accusamus et iusto odio dignisaccusamus et iusto odio dignissimos ducimus qu et accusamus et iusto odio dignisaccusamus et iusto odio dignissimos ducimus qu et accusamus et iusto odio dignisaccusamus et iusto odio dignissimos ducimus qu et accusamus et iusto odio dignisaccusamus et iusto odio dignissimos ducimus quus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum delenisimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+              >
+                <tf-link variant="arrow" text="Read more" href=""></tf-link>
+              </tf-card>
+            </div>
+
+            <br />
+            <h4>Reviews cards (desktop)</h4>
+            <br />
+            <div>
+              <h5>Variant_1 (img outside)</h5>
+              <br />
+              <tf-card
+                width="270px"
+                view="reviews"
+                variant="outside"
+                image="person_1"
+                title="Alex Bern"
+                position="CEO by PixelPerfect"
+                subtitle="“Ut enim ad minima veniam, quis nostraccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum delenium exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum.”"
+              ></tf-card>
+              <br />
+              <h5>Variant_2 (img inside)</h5>
+              <br />
+              <tf-card
+                width="258px"
+                view="reviews"
+                variant="inside"
+                image="person_1"
+                title="Alex Bern"
+                position="CEO by PixelPerfect"
+                subtitle="“Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate veliaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum delenit esse quam nihil molestiae consequatur, vel illum.”"
+              ></tf-card>
+            </div>
+            <br />
+
+            <br />
+            <h4>Reviews cards (mobile)</h4>
+            <br />
+            <div>
+              <h5>Variant_1 (img outside)</h5>
+              <br />
+              <br />
+              <br />
+              <tf-card
+                width="201px"
+                view="reviews_mob"
+                variant="outside"
+                image="person_1"
+                title="Alex Bern"
+                position="CEO by PixelPerfect"
+                subtitle="“Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum.”"
+              ></tf-card>
+              <br />
+              <h5>Variant_2 (img inside)</h5>
+              <br />
+              <tf-card
+                width="201px"
+                view="reviews_mob"
+                variant="inside"
+                image="person_1"
+                title="Alex Bern"
+                position="CEO by PixelPerfect"
+                subtitle="“Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum.”"
+              ></tf-card>
+            </div>
+            <br />
+
+            <h4>Blog cards (desktop)</h4>
+            <div>
+              <br />
+              <h5>Variant_1 (big)</h5>
+              <div>
+                <br />
+                <tf-card
+                  view="blog"
+                  variant="big"
+                  image="blog_1"
+                  title="Staffing software: key capabilities and top products"
+                  date="22 june 2022"
+                  subtitle="“Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum.”"
+                >
+                  <tf-link variant="arrow" text="Read more" href=""></tf-link>
+                </tf-card>
+              </div>
+              <br />
+              <h5>Variant_2 (medium)</h5>
+              <div>
+                <br />
+                <tf-card
+                  view="blog"
+                  variant="medium"
+                  image="blog_1"
+                  title="Sed ut perspiciatis unde omnis at vero blanditils"
+                  date="22 june 2022"
+                  subtitle="“At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. Quis autem vel eum iure...”"
+                >
+                  <div class="row">
+                    <tf-tag>App</tf-tag>
+                    <tf-tag>CIO</tf-tag>
+                    <tf-tag>Future</tf-tag>
+                  </div>
+                </tf-card>
+              </div>
+              <br />
+              <h5>Variant_3 (small)</h5>
+              <div>
+                <br />
+                <tf-card
+                  width="350px"
+                  view="blog"
+                  variant="small"
+                  image="blog_1"
+                  title="Staffing software: key capabilities and top products"
+                  date="22 june 2022"
+                  subtitle="“Ut enim ad minima v conseqim ad minima v consequatur,im ad minima v consequatur,im ad minima v consequatur,im ad minima v consequatur,im ad minima v consequatur,im ad minima v consequatur,im ad minima v consequatur,im ad minima v consequatur,im ad minima v consequatur,im ad minima v consequatur,im ad minima v consequatur,im ad minima v consequatur,im ad minima v consequatur,im ad minima v consequatur,im ad minima v consequatur,uatur, vel illum.”"
+                >
+                  <tf-link variant="arrow" text="Read more" href=""></tf-link>
+                </tf-card>
+              </div>
+              <div>
+                <br />
+                <tf-card
+                  width="350px"
+                  view="blog"
+                  variant="small"
+                  image="blog_1"
+                  title="Staffing software: key capabilities and top products"
+                  date="22 june 2022"
+                  subtitle="“Ut ea v consm ad minima v consequatur,im ad minima v consequatur,uatur, vel illum.”"
+                >
+                  <tf-link variant="arrow" text="Read more" href=""></tf-link>
+                </tf-card>
+              </div>
+              <br />
+              <h5>Variant_4 (right text)</h5>
+              <div>
+                <br />
+                <tf-card
+                  width="500px"
+                  view="blog"
+                  variant="right_text"
+                  image="blog_1"
+                  title="Sed ut pernima veniam, quis nostrum exercitationeminima veniam, quis nostrum exercitationima veniam, quis nostrum exercitationeminima veniam, quis nostrum exercitationima veniam, quis nostrum exercitationeminima veniam, quis nostrum exercitationima veniam, quis nostrum exercitationeminima veniam, quis nostrum exercitationima veniam, quis nostrum exercitationeminima veniam, quis nostrum exercitationima veniam, quis nostrum exercitationeminima veniam, quis nostrum exercitatiospiciatis unde omnis at vero blanditils"
+                  date="22 june 2022"
+                  subtitle="“Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit enima veniam, quis nostrum exercitationeminima veniam, quis nostrum exercitationima veniam, quis nostrum exercitationeminima veniam, quis nostrum exercitationima veniam, quis nostrum exercitationeminima veniam, quis nostrum exercitatiosse quam nihil molestiae consequatur, vel illum.”"
+                ></tf-card>
+              </div>
+              <br />
+              <h5>Variant_5 (without description)</h5>
+              <div>
+                <br />
+                <tf-card
+                  width="550px"
+                  view="blog"
+                  variant="without_description"
+                  image="blog_1"
+                  title="Our misinima veniam, quis nostrum exercitationeminima veniam, quis nostrum exercitationeminima veniam, quis nostrum exercitationeminima veniam, quis nostrum exercitationeminima veniam, quis nostrum exercitationemsion"
+                  date="22 june 2022"
+                  subtitle="“Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum.”"
+                >
+                  <tf-link variant="arrow" text="Read more" href=""></tf-link>
+                </tf-card>
+              </div>
+              <br />
+              <h5>Variant_6 (no img)</h5>
+              <div>
+                <br />
+                <tf-card
+                  width="500px"
+                  view="blog"
+                  variant="no_img"
+                  image="blog_1"
+                  title="Staffing software: key capabilities and top products"
+                  date="22 june 2022"
+                  subtitle="“Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum.”"
+                >
+                  <div class="row">
+                    <tf-tag pointer>Proxy</tf-tag>
+                    <tf-tag>VPN</tf-tag>
+                  </div>
+                </tf-card>
+              </div>
+              <br />
+            </div>
+
+            <br />
+            <h4>Solutions cards (desktop)</h4>
+            <div>
+              <br />
+              <h5>Variant_1 (no icon)</h5>
+              <div>
+                <br />
+                <tf-card view="solution" variant="no_icon" solutions="array" title="Data integration">
+                  <tf-link variant="arrow" text="Read more" href=""></tf-link>
+                </tf-card>
+              </div>
+              <br />
+              <h5>Variant_2 (with icon)</h5>
+              <div>
+                <br />
+                <tf-card view="solution" variant="with_icon" solutions="array" title="Data integration" icon="icon_book_database">
+                  <tf-link variant="arrow" text="Read more" href=""></tf-link>
+                </tf-card>
+              </div>
+              <br />
+              <h5>Variant_3 (stretched right)</h5>
+              <div>
+                <br />
+                <tf-card
+                  view="solution"
+                  variant="stretched"
+                  solutions="array"
+                  title="Data integration"
+                  subtitle="'Extract, transform, load (ETL) or extract, load, transform (ELT); data governance (security, availability, quality) implementation."
+                  icon="icon_book_database"
+                >
+                  <tf-link variant="arrow" text="Read more" href=""></tf-link>
+                </tf-card>
+              </div>
+            </div>
+
+            <br />
+            <h4>Solutions cards (mobile)</h4>
+            <div>
+              <br />
+              <h5>Variant_1 (no icon)</h5>
+              <div>
+                <br />
+                <tf-card view="solution_mobile" variant="no_icon" solutions="array" title="Data integration">
+                  <tf-link variant="arrow" text="Read more" href=""></tf-link>
+                </tf-card>
+              </div>
+              <br />
+              <h5>Variant_2 (with icon)</h5>
+              <div>
+                <br />
+                <tf-card view="solution_mobile" variant="with_icon" solutions="array" title="Data integration" icon="icon_book_database">
+                  <tf-link variant="arrow" text="Read more" href=""></tf-link>
+                </tf-card>
+              </div>
+              <br />
+              <h5>Variant_3 (stretched right)</h5>
+              <div>
+                <br />
+                <tf-card
+                  view="solution_mobile"
+                  variant="stretched"
+                  solutions="array"
+                  title="Data integration"
+                  subtitle="'Extract, transform, load (ETL) or extract, load, transform (ELT); data governance (security, availability, quality) implementation."
+                  icon="icon_book_database"
+                >
+                  <tf-link variant="arrow" text="Read more" href=""></tf-link>
+                </tf-card>
+              </div>
+            </div>
+
+            <br />
+            <h4>Team cards (desktop)</h4>
+            <div>
+              <br />
+              <h5>Variant_1 (with icon links)</h5>
+              <br />
+              <br />
+              <tf-card view="team" variant="icon_links" image="person_2" title="Sargis Grigor" position="Data analyst">
+                <tf-icons icon-name="icon_linkedin_grey"></tf-icons>
+                <tf-icons icon-name="icon_facebook_grey"></tf-icons>
+                <tf-icons icon-name="icon_twitter_grey"></tf-icons>
+              </tf-card>
+              <br />
+              <h5>Variant_2 (vertical)</h5>
+              <br />
+              <tf-card width="350px" view="team" variant="vertical" image="person_2_grad" title="Sargis Grigor" position="Data analyst"></tf-card>
+              <br />
+              <h5>Variant_3 (horizontal)</h5>
+              <br />
+              <tf-card view="team" variant="horizontal" image="person_2_h" title="Sargis Grigor" position="Data analyst"></tf-card>
+            </div>
+
+            <br />
+            <h4>Team cards (mobile)</h4>
+            <div>
+              <br />
+              <h5>Variant_1 (with icon links)</h5>
+              <br />
+              <br />
+              <tf-card view="team_mobile" variant="icon_links" image="person_2" title="Sargis Grigor" position="Data analyst">
+                <tf-icons icon-name="icon_linkedin_grey"></tf-icons>
+                <tf-icons icon-name="icon_facebook_grey"></tf-icons>
+                <tf-icons icon-name="icon_twitter_grey"></tf-icons>
+              </tf-card>
+              <br />
+              <h5>Variant_2 (vertical)</h5>
+              <br />
+              <tf-card width="160px" view="team_mobile" variant="vertical" image="person_2_grad" title="Sargis Grigor" position="Data analyst"></tf-card>
+              <br />
+              <h5>Variant_3 (horizontal)</h5>
+              <br />
+              <tf-card view="team_mobile" variant="horizontal" image="person_2_h" title="Sargis Grigor" position="Data analyst"></tf-card>
+            </div>
+
+            <br />
+            <h4>Price card (desktop/mobile)</h4>
+            <div>
+              <br />
+              <h5>Desktop</h5>
+              <br />
+              <tf-card width="255px" view="price" variant="desktop" title="Starter" cost="Custom" subtitle="Trial plan for starters">
+                <tf-button variant="contained" width="100%" text="Choise plan"></tf-button>
+              </tf-card>
+              <br />
+              <h5>Mobile</h5>
+              <br />
+              <tf-card view="price" variant="mobile" title="Free trial" cost="00">
+                <tf-button variant="contained" width="100%" text="Choise plan"></tf-button>
+              </tf-card>
+            </div>
+          </div>
+          <my-accordion
+            width="100%"
+            label="Bacon Ipsum"
+            color="pink"
+            description="Bacon ipsum dolor amet pork chop sausage turkey spare ribs ham hock cupim pork loin capicola bacon ham filet mignon prosciutto boudin turducken. Shank corned beef burgdoggen jowl ribeye. Ham pork pastrami rump meatball buffalo venison andouille picanha fatback pork loin. Venison doner porchetta, chicken leberkas fatback burgdoggen ham andouille landjaeger alcatra. Pork belly pork jerky prosciutto leberkas tail salami tongue frankfurter turducken short loin flank."
+          ></my-accordion>
+          -->
+
+          <div>
+            <h2>Subscribe</h2>
+            <br />
+            <tf-subscribe variant="desktop" theme="light">
+              <input placeholder="input" />
+            </tf-subscribe>
+            <tf-subscribe variant="desktop" theme="dark"><input placeholder="input" /></tf-subscribe>
+            <tf-subscribe variant="mobile" theme="light"><input placeholder="input" /></tf-subscribe>
+            <tf-subscribe variant="mobile" theme="dark"><input placeholder="input" /></tf-subscribe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

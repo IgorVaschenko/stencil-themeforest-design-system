@@ -1,0 +1,92 @@
+:root {
+  --primary: #185cff;
+  --secondary: #002b4e;
+  --tertiary: #f0f9ff;
+  --helper-blue-1: #194060;
+  --helper-blue-2: #607d94;
+  --helper-blue-3: #c9dcec;
+  --black: #292d33;
+  --grey: #9497a1;
+  --background: #f1f6fa;
+  --error: #c14040;
+}
+
+body {
+  margin: 0;
+  font-family: 'Manrope', 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: var(--black);
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 0 0 0;
+}
+.container {
+  margin: 200px auto;
+  padding: 0 500px;
+}
+.container .row {
+  margin: 24px auto;
+  display: flex;
+}
+.container .controls {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.shadow-view {
+  display: flex;
+  width: 248px;
+  height: 144px;
+  margin-bottom: 50px;
+}
+.container .dark_column {
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--secondary);
+  border-radius: 5px;
+}
+
+@media (max-width: 1800px) {
+  .container {
+    padding: 0 400px;
+  }
+}
+@media (max-width: 1650px) {
+  .container {
+    padding: 0 300px;
+  }
+}
+
+@media (max-width: 1450px) {
+  .container {
+    padding: 0 200px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 100px;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    padding: 0 60px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    padding: 0 32px;
+  }
+}

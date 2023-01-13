@@ -1,0 +1,122 @@
+:host {
+  display: block;
+  margin: 10px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*shadow*/
+.shadow {
+  box-shadow: 0px 12px 30px 0px #190cff2e;
+}
+/*variant*/
+.contained {
+  border-radius: 6px;
+  background-color: #185cff;
+  color: #f1f6fa;
+  border: none;
+  cursor: pointer;
+}
+.contained:hover {
+  background-color: #467dff;
+}
+
+.text {
+  border-radius: 6px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.text:hover {
+  color: #467dff;
+}
+
+.outlined {
+  border-radius: 7px;
+  background: #ffffff;
+  color: #185cff;
+  border: 1px solid #185cff;
+  cursor: pointer;
+}
+.outlined:hover {
+  color: #467dff;
+  border: 1px solid #467dff;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  outline: 8px solid #185cff;
+  border: 2px solid white;
+  color: white;
+  background-color: #185cff;
+  cursor: pointer;
+}
+.circle:hover {
+  border: 3px solid white;
+  background-color: #467dff;
+  outline: 8px solid #467dff;
+}
+/*size*/
+.lg {
+  height: 54px;
+}
+.lg-b {
+  height: 45px;
+}
+.md {
+  height: 44px;
+}
+.sm {
+  height: 54px;
+}
+
+.sm_circle {
+  height: 90px;
+  width: 90px;
+}
+.lg_circle {
+  width: 120px;
+  height: 120px;
+}
+
+/*disabled*/
+.disabled {
+  border-radius: 6px;
+  color: #f1f6fa;
+  border: none;
+  cursor: default;
+  background-color: #9497a1;
+}
+.disabled_out {
+  color: #9497a1;
+  border: 1px solid #9497a1;
+  height: 54px;
+  border-radius: 7px;
+  background: none;
+  cursor: default;
+}
+.disabled_text {
+  color: #9497a1;
+  height: 45px;
+  background: none;
+  cursor: default;
+  border: none;
+}
+.disabled_circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  outline: 8px solid #9497a1;
+  border: 2px solid white;
+  color: white;
+  background-color: #9497a1;
+  cursor: default;
+}

@@ -1,0 +1,63 @@
+:host {
+  display: block;
+  margin: 5px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.container > a {
+  text-decoration: none;
+  margin-right: 3px;
+}
+
+.simple {
+  color: #185cff;
+}
+.simple:hover {
+  color: #002b4e;
+}
+
+.arrow {
+  color: #185cff;
+  padding-bottom: 5px;
+}
+.arrow:hover {
+  color: #002b4e;
+}
+
+.header_light {
+  color: #9497a1;
+}
+.header_light:hover {
+  color: #292d33;
+}
+
+.header_dark {
+  color: #ffffff;
+}
+.header_dark:hover {
+  color: #d7d7d7;
+}
+
+.footer {
+  color: #9497a1;
+}
+.footer:hover {
+  color: #c9dcec;
+}
+.menu {
+  color: #ffffff;
+}
+
+.disabled {
+ color: #9497a1;
+ cursor: default;
+}
+.disabled:hover {
+  color: #9497a1;
+  cursor: default;
+}

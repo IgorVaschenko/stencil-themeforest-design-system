@@ -1,0 +1,11 @@
+:host {
+  display: block;
+  width: 248px;
+  height: 144px;
+}
+
+.shadow {
+  box-shadow: 0px 12px 30px rgba(24, 92, 255, 0.18);
+  border-radius: 6px;
+  cursor: pointer;
+}

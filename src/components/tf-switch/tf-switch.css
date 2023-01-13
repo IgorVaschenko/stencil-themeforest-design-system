@@ -1,0 +1,58 @@
+:host {
+  display: block;
+}
+
+.container {
+  height: 50px;
+  width: 255px;
+  border-radius: 20px;
+  background: #f0f9ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.container_mobile {
+  height: 40px;
+  width: 190px;
+  border-radius: 14px;
+  background: #f0f9ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.switch {
+  width: 125px;
+  height: 46px;
+  border-radius: 20px;
+  background: #f0f9ff;
+  color: #292d33;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.switch_mobile {
+  height: 38px;
+  width: 94px;
+  border-radius: 14px;
+  background: #f0f9ff;
+  color: #292d33;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pointer {
+  background: #185cff;
+  color: #ffffff;
+  cursor: none;
+}
+.pointer:hover {
+  background-color: #467dff;
+}

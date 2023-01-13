@@ -1,0 +1,48 @@
+:host {
+  display: block;
+  margin: 5px;
+}
+
+.tag {
+  height: 30px;
+  border-radius: 6px;
+  color: #185cff;
+  border: 1px solid #f0f9ff;
+  background: none;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+}
+.tag:hover {
+  color: #ffffff;
+  background-color: #185cff;
+}
+.pointer {
+  color: #ffffff;
+  background-color: #185cff;
+  height: 30px;
+  border-radius: 6px;
+  border: 1px solid #f0f9ff;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.disabled {
+  height: 30px;
+  width: 61px;
+  border-radius: 6px;
+  color: #9497a1;
+  border: 1px solid #f0f9ff;
+  background: none;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+}

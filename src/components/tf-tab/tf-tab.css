@@ -1,0 +1,62 @@
+:host {
+  display: block;
+}
+
+.row {
+  display: flex;
+}
+
+.toggle {
+  background: #f0f9ff;
+  padding-top: 2px;
+  margin: 5px;
+  color: #292d33;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.toggle:hover {
+  background-color: #d1ebfd;
+}
+
+.small {
+  height: 32px;
+  width: 41px;
+  margin: 5px;
+  padding-top: 2px;
+  border-radius: 6px;
+  border: 1px solid #185cff;
+  background: white; 
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #185cff;
+  border: 1px solid #467dff;
+}
+.small:hover {
+  border: 1px solid #95b3f8;
+  background-color: #f0f9ff;
+}
+
+.medium {
+  height: 38px;
+  width: 94px;
+  border-radius: 20px;
+}
+
+.large {
+  height: 46px;
+  width: 125px;
+  border-radius: 20px;
+}
+
+.pointer {
+  background: #185cff;
+  color: #ffffff;
+}
+.pointer:hover {
+  background-color: #467dff;
+}
